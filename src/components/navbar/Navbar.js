@@ -8,7 +8,7 @@ const Navbar = ({ isScrolling }) => {
     return (
         <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`} >
             <div className="navbar-logo" onClick={toTheTop}>
-                <i class="fas fa-laptop-code"></i>
+                <i className="fas fa-laptop-code"></i>
             </div>
         </nav>
     )
